@@ -11,12 +11,13 @@
 </head>
 <body>
 
-
-@yield('content')
-
+<div id="root">
+    @yield('rootContent')
+</div>
 
 <script src="{{ URL::asset('js/vue.js') }}"></script>
 
+@yield('script')
 
 
 
