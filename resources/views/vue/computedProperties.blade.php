@@ -25,6 +25,8 @@
         <li v-for="task in incompleteTasks" v-text="task.description"></li>
     </ul>
 
+
+
 @endsection
 
 @section('script')

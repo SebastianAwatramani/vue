@@ -10,6 +10,8 @@
     <div id="components-demo">
         <button-counter></button-counter>
     </div>
+
+    <task-list></task-list>
 @endsection
 
 @section('script')
