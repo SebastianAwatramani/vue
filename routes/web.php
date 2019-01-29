@@ -22,3 +22,8 @@ Route::get('/attributeAndClassBinding', function() {
 Route::get('/computedProperties', function() {
     return view('vue.computedProperties');
 });
+
+Route::get('/components1', function() {
+    return view('vue.components1');
+});
+
