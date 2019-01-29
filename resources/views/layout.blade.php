@@ -18,6 +18,7 @@
 </div>
 
 <script src="{{ URL::asset('js/vue.js') }}"></script>
+<script src="{{ URL::asset('js/localVue.js') }}"></script>
 
 @yield('script')
 
