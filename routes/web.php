@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('vue.welcome');
 });
+
+Route::get('/attributeAndClassBinding', function() {
+    return view('vue.attributeBinding');
+});
