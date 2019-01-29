@@ -1,6 +1,7 @@
 @extends('layout')
 
 @section('rootContent')
+    <label for="input">Text</label>
     <input type="text" id="input" v-model="message">
 
     <p>The value of the input is: @{{ message }}</p>
