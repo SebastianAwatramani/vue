@@ -1,10 +1,12 @@
 @extends('layout')
 
 @section('rootContent')
-    <label for="input">Text</label>
-    <input type="text" id="input" v-model="message">
+    <ul>
+        <li v-for="name in names" v-text="name"></li>
+    </ul>
 
-    <p>The value of the input is: @{{ message }}</p>
+    <input type="text">
+    <button v-on:click="">Add Name</button>
 
 @endsection
 
@@ -16,8 +18,10 @@
         new Vue({
             el: '#root',
             data: {
-                message: "Hello World"
+                names: ['Joe', 'Mary', 'Jane']
             }
+
+            
         });
 
     </script>
