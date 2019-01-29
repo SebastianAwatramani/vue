@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/attributeAndClassBinding', function() {
     return view('vue.attributeBinding');
 });
+
+Route::get('/computedProperties', function() {
+    return view('vue.computedProperties');
+});
